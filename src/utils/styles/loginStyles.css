@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    height: 90vh;
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #0865fe;
+    border-radius: 30px;
+}
+
+.image-container {
+    background-color: #0865fe;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    color: white;
+    font-family: arial;
+}
+
+.login-section {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginDescription {
+    /* height: 100%; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-Form {
+    /* height: 100%; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* align-items: center; */
+    align-content: center;
+}
+
+button {
+  /* height: 100%; */
+  width: 50%;
+  background-color: #0865fe;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  justify-content: left;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type=email],input[type=password] {
+  /* height: 100%; */
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  justify-content: left;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
