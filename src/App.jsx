@@ -1,9 +1,7 @@
 import BasicRoutes from "./routes/Routes";
 
 function App() {
-	return (
-		<BasicRoutes />
-	);
+  return <BasicRoutes />;
 }
 
 export default App;

@@ -10,7 +10,7 @@ const Login = () => {
         </div>
         <div className="login-section">
             <div className="loginDescription">
-                <img src='' alt='logo'/>
+                <img src='https://img.freepik.com/free-vector/letter-e-vector-logo-design_557339-698.jpg?t=st=1739980666~exp=1739984266~hmac=5dec744e40803b1117f2eae84348f3d83d26d1ed79c58493aeef02e20c9b9ee3&w=740' alt='logo' height="60%" width="60%"/>
                 <h3>Hello, again</h3>
                 <p>please login to find a companion</p>
             </div>
