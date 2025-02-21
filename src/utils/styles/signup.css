@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #0865fe;
+    border-radius: 30px;
+}
+
+.desc {
+    /* background-color: #0865fe; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Montserrat';
+    background-image:  url(C:\Users\MR JOSEPH\Desktop\projects\MALINGO\frontend\src\assets\images\edouard.png) ;
+    
+}
+
+h1 {
+    font-family: 'montserrat';
+    padding-left: 5%;
+    text-align: center;
+}
+.signup-desc {
+    display: flex;
+    /* flex-direction: column; */
+    font-family: 'montserrat';
+    /* height: 100%; */
+    /* height: 100%; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    font-size: smaller;
+}
+
+.sgp-form {
+    /* height: 100%; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* align-items: center; */
+    align-content: center;
+}
+
+.sgpInput {
+    /* height: 100%; */
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  justify-content: left;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.sg {
+    align-items: left;
+    justify-content: left;
+}
+
+.btn-signup {
+    /* height: 100%; */
+  width: 50%;
+  background-color: #0865fe;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  justify-content: left;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.sgp {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
