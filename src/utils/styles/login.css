@@ -14,7 +14,7 @@
 }
 
 .image-container {
-    background-color: #0865fe;
+    /* background-color: #0865fe; */
     height: 100%;
     width: 50%;
     display: flex;
@@ -30,7 +30,7 @@
     background-repeat: no-repeat;
     background-blend-mode: saturation;
     background-size: cover;
-    /* background-image: url(https://vscode.dev/github/Banfy-Divine/Malingo/blob/%40feat/login/src/assets/images/ian.png); */
+    background-image: url(C:\Users\MR JOSEPH\Desktop\projects\MALINGO\frontend\src\assets\images\ian.png);
 }
 
 .login-section {

@@ -1,0 +1,67 @@
+const posts = [
+    {
+        id: '1',
+        name: 'Jon Snow',
+        title: 'Hiking',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eaque fuga sapiente fugit impedit ab sunt alias quae ipsa quia minima modi aspernatur, doloribus, laudantium praesentium ratione veritatis officia illum.',
+        timestamp: '2 hours ago',
+        members: '4 members',
+        image: 'https://images.pexels.com/photos/8073982/pexels-photo-8073982.jpeg?auto=compress&cs=tinysrgb&w=600',
+    },
+    {
+        id: '2',
+        name: 'Jon Snow',
+        title: 'Hiking',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eaque fuga sapiente fugit impedit ab sunt alias quae ipsa quia minima modi aspernatur, doloribus, laudantium praesentium ratione veritatis officia illum.',
+        timestamp: '2 hours ago',
+        members: '4 members',
+        image: 'https://images.pexels.com/photos/8073982/pexels-photo-8073982.jpeg?auto=compress&cs=tinysrgb&w=600',
+    },
+    {
+        id: '3',
+        name: 'Jon Snow',
+        title: 'Hiking',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eaque fuga sapiente fugit impedit ab sunt alias quae ipsa quia minima modi aspernatur, doloribus, laudantium praesentium ratione veritatis officia illum.',
+        timestamp: '2 hours ago',
+        members: '4 members',
+        image: 'https://images.pexels.com/photos/2899739/pexels-photo-2899739.jpeg?auto=compress&cs=tinysrgb&w=600',
+    },
+    {
+        id: '4',
+        name: 'Jon Snow',
+        title: 'Hiking',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eaque fuga sapiente fugit impedit ab sunt alias quae ipsa quia minima modi aspernatur, doloribus, laudantium praesentium ratione veritatis officia illum.',
+        timestamp: '2 hours ago',
+        members: '4 members',
+        image: 'https://images.pexels.com/photos/13321199/pexels-photo-13321199.jpeg?auto=compress&cs=tinysrgb&w=600',
+    },
+    {
+        id: '5',
+        name: 'Jon Snow',
+        title: 'Hiking',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eaque fuga sapiente fugit impedit ab sunt alias quae ipsa quia minima modi aspernatur, doloribus, laudantium praesentium ratione veritatis officia illum.',
+        timestamp: '2 hours ago',
+        members: '4 members',
+        image: 'https://images.pexels.com/photos/4017572/pexels-photo-4017572.jpeg?auto=compress&cs=tinysrgb&w=600',
+    },
+    {
+        id: '6',
+        name: 'Jon Snow',
+        title: 'Hiking',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eaque fuga sapiente fugit impedit ab sunt alias quae ipsa quia minima modi aspernatur, doloribus, laudantium praesentium ratione veritatis officia illum.',
+        timestamp: '2 hours ago',
+        members: '4 members',
+        image: 'https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg?auto=compress&cs=tinysrgb&w=600',
+    },
+    {
+        id: '7',
+        name: 'Jon Snow',
+        title: 'Hiking',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eaque fuga sapiente fugit impedit ab sunt alias quae ipsa quia minima modi aspernatur, doloribus, laudantium praesentium ratione veritatis officia illum.',
+        timestamp: '2 hours ago',
+        members: '4 members',
+        image: 'https://images.pexels.com/photos/6192532/pexels-photo-6192532.jpeg?auto=compress&cs=tinysrgb&w=600',
+    }
+];
+
+export default posts;

@@ -1,7 +1,8 @@
-import BasicRoutes from "./routes/Routes";
+import React from 'react'
+import BasicRoutes from './routes/Routes'
 
-function App() {
-  return <BasicRoutes />;
+const App = () => {
+  return <BasicRoutes />
 }
 
-export default App;
+export default App
