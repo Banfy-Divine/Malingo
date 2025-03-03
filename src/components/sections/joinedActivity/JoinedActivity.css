@@ -1,0 +1,52 @@
+.joined-activity {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    margin-bottom: 8px;
+    /* background-color: #ffffff; */
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s;
+  }
+  
+  .joined-activity:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .joined-activity img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    object-fit: cover;
+  }
+  
+  .joined-activity p {
+    margin: 4px 0 8px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .joined-activity button {
+    padding: 8px 12px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .joined-activity button:hover {
+    background-color: #166fe5;
+  }
+  
+  .joined-activity a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  

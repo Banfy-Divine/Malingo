@@ -1,0 +1,31 @@
+.my-activity {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin: 4px 0;
+    border-radius: 8px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+  }
+  
+  .my-activity:hover {
+    background-color: #e4e6eb;
+  }
+  
+  .my-activity img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 12px;
+    object-fit: cover;
+  }
+  
+  .my-activity p {
+    color: #050505;
+    font-size: 15px;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  

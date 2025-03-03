@@ -1,19 +1,24 @@
 import React from 'react'
 import '../utils/styles/signup.css'
 import { Link } from 'react-router-dom'
+import Logo from '../assets/images/malingo.png'
 
 const Signups = () => {
   return (
     <div className="container">
         <div className="desc">
-        <img src="C:\Users\MR JOSEPH\Desktop\projects\MALINGO\frontend\src\assets\images\malingo1.png" alt="" height="207px" width="326px"/>
+        {/* <img src="" alt="" height="207px" width="326px"/> */}
           <h1>Turn Solo Adventures into Shared <br /> Memories - Find your Companion Today!</h1>
         </div>
         <div className="signup-desc">
             <div className="sgp">
+              <img src={Logo} alt="" className='logo-login'/>
+              <br />
               <h2>Sign Up</h2>
               <p>Find A Companion For Your Next Adventure</p>
             </div>
+            <br />
+            <br />
             <div className="sgp-form">
                 <form action="" className="form">
                   <label htmlFor="fullName">Full Name</label>
@@ -30,7 +35,7 @@ const Signups = () => {
                     <input type="checkbox" />Remember Me
                   </div>
                   <button className='btn-signup'>SIGN UP</button>
-                  <p>Already have an account? {<Link to="/"><font color="red">Login</font></Link>}</p>
+                  <p>Already have an account? {<Link to="/login"><font color="red">Login</font></Link>}</p>
                 </form>
             </div>
         </div>
