@@ -1,0 +1,57 @@
+.pending-activity {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    margin-bottom: 8px;
+    /* background-color: #ffffff; */
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pending-activity img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    object-fit: cover;
+  }
+  
+  .pending-activity p {
+    margin: 4px 0 8px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .pending-actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .pending-actions button {
+    flex: 1;
+    padding: 6px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .pending-actions .accept {
+    background-color: #1877f2;
+    color: white;
+  }
+  
+  .pending-actions .decline {
+    background-color: #e4e6eb;
+    color: #050505;
+  }
+  
+  .pending-actions .accept:hover {
+    background-color: #166fe5;
+  }
+  
+  .pending-actions .decline:hover {
+    background-color: #d8dadf;
+  }
+  
